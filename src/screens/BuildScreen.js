@@ -9,6 +9,7 @@ const BuildScreen = () => {
         <Icon name="school" size={80} color="#D1D5DB" />
         <Text style={styles.title}>Learn</Text>
         <Text style={styles.subtitle}>Islamic Education Hub</Text>
+        <Text style={styles.description}>Ways to improve Islamic knowledge</Text>
         <Text style={styles.description}>Coming Soon</Text>
       </View>
     </SafeAreaView>
@@ -24,14 +25,14 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    paddingHorizontal: 32,
+    paddingHorizontal: 32
   },
   title: {
     fontSize: 24,
     fontWeight: 'bold',
     color: '#111827',
     marginTop: 16,
-    marginBottom: 8,
+    marginBottom: 8
   },
   subtitle: {
     fontSize: 16,
